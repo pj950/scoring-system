@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Hackathon Scoring System</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"Roboto Mono"', 'monospace'],
+              heading: ['"Press Start 2P"', 'cursive'],
+            },
+            colors: {
+              'primary': '#00f5ff', // Electric Cyan
+              'accent': '#ff00ff', // Hot Pink / Magenta
+              'danger': '#ff3333', // Neon Red
+              'dark-bg': '#1a052a',
+              'secondary-bg': '#2c1044',
+              'light-text': '#e0d8ff',
+            },
+            textShadow: {
+              'glow-accent': '0 0 8px theme(colors.accent)',
+              'glow-primary': '0 0 8px theme(colors.primary)',
+            },
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react": "https://esm.sh/react@^19.1.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.8.0",
+    "@vercel/postgres": "https://esm.sh/@vercel/postgres@^0.10.0",
+    "@vercel/node": "https://esm.sh/@vercel/node@^5.3.13"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-dark-bg text-light-text">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

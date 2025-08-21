@@ -1,0 +1,18 @@
+{
+  "teams": [
+    { "name": "Cyber Punks" },
+    { "name": "Data Weavers" },
+    { "name": "Synth Riders" }
+
+  ],
+  "judges": [
+    { "name": "Trinity" },
+    { "name": "Morpheus" }
+  ],
+  "criteria": [
+    { "name": "UI/UX", "maxScore": 10 },
+    { "name": "Innovation", "maxScore": 20 },
+    { "name": "Technicality", "maxScore": 15 },
+    { "name": "Presentation", "maxScore": 5 }
+  ]
+}

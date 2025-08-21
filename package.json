@@ -1,9 +1,7 @@
+
 {
   "private": true,
   "description": "Dependencies for the Vercel serverless function backend.",
-  "scripts": {
-    "build": "echo 'Vercel handles the build process automatically.'"
-  },
   "dependencies": {
     "@vercel/postgres": "^0.9.0",
     "typescript": "^5.3.3"
